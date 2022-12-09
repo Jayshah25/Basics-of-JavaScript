@@ -100,7 +100,7 @@ The content in the files is explained below:
     To address these problems, in ES6 (ECMAScript = European Computer Manufacturers Association), two new keywords `let` and `const` were introduced to declare variables. Each of the keyword doesn't allow redeclaration of variables, and the declared variables are block scoped. The keyword `const` doesn't allow reassignment of the variables either. The table below shows the differences between the keywords.
 
     |     | Redeclaration |      Scope     | Reassignment |
-    -------------------------------------------------------
+    |-----|---------------|----------------|--------------|
     |var  |     Yes       |     Function   |     Yes      |
     |let  |      No       |      Block     |     Yes      |
     |const|      No       |      Block     |     No       |
